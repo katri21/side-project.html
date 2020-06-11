@@ -1,0 +1,105 @@
+body {
+	font-family: 微軟正黑體;
+}
+* {
+	box-sizing: border-box;
+}
+.header {
+	background-color: #000000;
+	padding: 25px;
+	color: #f0f8ff;
+}
+#text1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	color: #faebd7;
+	filter: blur(2px);
+}
+#text2 {
+	margin: -1.5em 0 0 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	top: 10px;
+}
+.column {
+	float: left;
+	padding: 15px;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.menu {
+	width: 100%;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.menu li {
+	float: left;
+}
+.menu li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px 45px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #dcdcdc;
+	opacity: 0.8;
+}
+.menu ul ul {
+	display: none;
+}
+.menu ul li:hover ul {
+	display: block;
+}​
+.imgs {
+	float: left;
+	margin: auto;
+	text-align: center;
+}
+img {
+	display: inline;
+	margin: 10px;
+	border-radius: 15px;
+}
+.secul ul {
+	list-style-type: none;
+}
+.h31 {
+	display: block;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+.h31:hover {
+	background-color: #dcdcdc;
+}
+.footer {
+	text-align: center;
+	background-color: #000000;
+	color: #f0f8ff;
+	padding: 3px;
+}
+@media (max-width: 600px) {
+	.menu, .content {
+		width: 100%;
+		height: auto;
+	}
+}

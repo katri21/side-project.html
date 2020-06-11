@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="nike_5.css">
+	<title>會員註冊</title>
+</head>
+<body>
+	<div class="header">
+		<h1 id="text1">SNEAKERS</h1>
+		<h1 id="text2">SNEAKERS</h1>
+	</div>
+	<div class="clearfix">
+		<nav class="column menu">
+			<ul>
+				<li><a href="side project.html"><b>最新消息</b></a></li>
+				<li><a href="#" class="m2 clearfix"><b>NIKE</b></a>
+					<ul aria-hidden="true" class="hidden">
+						<li><a href="jordan1.html" class="jordan">Jordan 1</a>
+						</li><br>
+						<li><a href="jordan5.html">Jordan 5</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><b>ADIDAS</b></a>
+					<ul>
+						<li><a href="yeezy350.html">Yeezy 350</a></li>
+					</ul>
+				</li>
+				<li><a href="nike_5.html"><b>會員註冊</b></a></li>
+				<li><a href="nike_6.html"><b>聯絡我們</b></a></li>
+			</ul>
+		</nav>
+	</div>
+<div class="form">
+	<form action="method=GET">
+		<label for="fname"><b>First name:  </b></label>
+		<input type="text" class="bgc" name="fname" placeholder="Katri" id="fname"><br>
+		<p></p>
+		<label for="lname"><b>Last name: </b></label>
+		<input type="lname" class="bgc" name="lname" placeholder="Jhang" id="lname"><br>
+		<p></p>
+		<label for="gender"><b>Gender: </b></label>
+		<input type="radio" class="bgc" name="gender" id="male" value="male">
+		<label for="male">Male</label>
+		<input type="radio" class="bgc" name="gender" id="female" value="female">
+		<label for="female">Female</label>
+		<input type="radio" class="bgc" name="gender" id="other" value="other">
+		<label for="other">Other</label>
+		<p></p>
+		<label for="age"><b>Age: </b></label>
+		<input type="number" class="bgc" name="age" id="age" pattern="[15-99]">
+		<p></p>
+		<label for="birthday"><b>Birthday: </b></label>
+		<input type="date" class="bgc" name="birthday" id="birthday">
+		<p></p>
+		<label for="phone"><b>Phone number: </b></label>
+		<input type="tel" class="bgc" name="phone" id="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+		<p></p>
+		<label for="email"><b>E-mail: </b></label>
+		<input type="email" class="bgc" name="email" id="email" placeholder="@gmail.com" required>
+		<p></p>
+	<div class="submit">
+		<input type="submit" value="submit" class="submitbut">
+	</div>
+	</form>
+	<p></p>
+</div>
+		<div class="footer">
+		<p>copyright &copy; Welcome my web</p>
+	</div>
+</body>
+</html>

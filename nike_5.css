@@ -1,0 +1,147 @@
+body {
+	font-family: 微軟正黑體;
+}
+* {
+	box-sizing: border-box;
+}
+.header {
+	background-color: #000000;
+	padding: 25px;
+	color: #f0f8ff;
+}
+#text1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	color: #faebd7;
+	filter: blur(2px);
+}
+#text2 {
+	margin: -1.5em 0 0 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	top: 10px;
+}
+.column {
+	float: left;
+	padding: 15px;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.menu {
+	width: 100%;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.menu li {
+	float: left;
+}
+.menu li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	font-size: 18px;
+	padding: 15px 45px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.menu li a:hover {
+	background-color: #dcdcdc;
+	opacity: 0.8;
+}
+.menu ul ul {
+	display: none;
+}
+.menu ul li:hover ul {
+	display: block;
+}​
+section {
+	padding: 80px 0 0 0;
+}
+
+form {
+	text-align: left;
+	font-size: 20px;
+}
+.form {
+	text-align: center;
+	padding: 50px 100px 50px 220px;
+	margin: 0 auto 25px auto;
+	width: 800px;
+	height: 500px;
+	background-color: rgba(245, 245, 245, 0.4);
+	border-radius: 15px;
+	box-shadow: 0 6px 12px #D3D3D3; 
+}
+#fname {
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 250px;
+	vertical-align: middle;
+}
+#lname {
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 253px;
+	vertical-align: middle;
+}
+#age {
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 313px;
+	vertical-align: middle;
+}
+#birthday {
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 270px;
+	vertical-align: middle;
+}
+#phone{
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 210px;
+	vertical-align: middle;
+}
+#email {
+	border: 1.5px solid #556B2F;
+	padding: 8px;
+	width: 294px;
+	vertical-align: middle;
+}
+.submitbut {
+	cursor:pointer;
+	text-align: center;
+	margin: 0 0 0 140px;
+	padding: 10px 15px;
+	-webkit-border-radius: 5px;
+	background-color: #20B2AA;
+	border: 0;
+}
+.bgc {
+	background-color: #F8F8FF;
+	border-radius: 10px;
+}
+.footer {
+	text-align: center;
+	background-color: #000000;
+	color: #f0f8ff;
+	padding: 3px;
+}
+@media (max-width: 600px) {
+	.menu, .content {
+		width: 100%;
+		height: auto;
+	}
+}
